@@ -2,7 +2,7 @@ import axios from 'axios'
 import { CART_ADD_ITEM, CART_REMOVE_ITEM, CART_SAVE_SHIPPING_ADDRESS } from '../constants/cartConstants'
 
 const api = axios.create({
-	baseURL: "http://localhost:5000/api/products",
+	baseURL: "https://adams-proshop-api.onrender.com/api/products",
 });
 
 export const addToCart = (id, qty) => async (dispatch, getState) => {

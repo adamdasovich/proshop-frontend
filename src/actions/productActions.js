@@ -9,7 +9,7 @@ import {
 } from "../constants/productConstants";
 
 const api = axios.create({
-	baseURL: "http://localhost:5000/api/products"
+	baseURL: "https://adams-proshop-api.onrender.com/api/products"
 });
 
 

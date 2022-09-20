@@ -10,7 +10,7 @@ import {
 import axios from "axios";
 
 const api = axios.create({
-	baseURL: "http://localhost:5000/api/users"
+	baseURL: "https://adams-proshop-api.onrender.com/api/users"
 });
 
 export const login = (email, password) => async (dispatch) => {

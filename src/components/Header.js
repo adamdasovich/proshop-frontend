@@ -17,7 +17,7 @@ const Header = () => {
 		<Navbar bg="dark" variant='dark' expand="lg" collaspeOnSelect >
 			<Container>
 				<LinkContainer to='/'>
-					<Navbar.Brand >Adam is fucking amazing!</Navbar.Brand>
+					<Navbar.Brand >Adam fixed a very embarassing mess up.</Navbar.Brand>
 				</LinkContainer>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
